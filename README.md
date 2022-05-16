@@ -12,7 +12,7 @@ To Install Python on Windows configure the windows batch file for specific dirs 
 ## Usage
 Once Python Is installed navigate to Get_Info folder and run sys.pyw
 ```
-/Get_Info/ sys.pyw
+/Get_Info/sys.pyw
 ```
 After sys.pyw is run enter the system specifications and hit confirm
 if any mistakes were made while entering data hit re-do. Once Confirm is pressed a formatted JSON file is created in a folder called systeminfo in the directory that sys.pyw is in.
