@@ -117,6 +117,7 @@ def regex_parse():
                             Intel_REG = (r"TM\)(.*)")
                             cpu_arc = 'intel'
                             AMD_REG = (r"AMD(.*)")
+                            Intel_Old_Reg = (r"Intel\(R\)(.*)") # OLD GEN
                             
                             if cpu_arc == 'intel':
                                 
@@ -128,6 +129,10 @@ def regex_parse():
                                 a_cpu_match = re.finditer(a_cpu_reg, Unparsed_File, re.MULTILINE)
                                 for cpu_a in a_cpu_match:
                                     new_cpu = re.finditer(a_cpu_reg, str_match, re.MULTILINE)
+                                old_intel_reg = Intel_Old_Reg
+                                o_I_cpu_match = re.finditer(old_intel_reg, Unparsed_File, re.MULTILINE)
+                                for cpu_o_I in o_I_cpu_match:
+                                    new_cpu = re.finditer(old_intel_reg, Unparsed_File, re.MULTILINE)
 
                             else:
                                 null = 'NULL'
