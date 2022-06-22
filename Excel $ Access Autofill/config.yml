@@ -1,0 +1,4 @@
+cfg:
+    json_file_location: H:\Get_Info\systeminfo\
+    refurbDB_hotkey: shift + alt + a
+    COA_hotkey: shift + alt + z
