@@ -1,0 +1,53 @@
+[
+    {
+        "SerialNumber": "ps"
+    },
+    {
+        "Manufacturer": "powerspec"
+    },
+    {
+        "Model": "G212"
+    },
+    {
+        "Processor": "Core(TM)i7-2600KCPU@3.40GHz"
+    },
+    {
+        "HDD_Size": "465.2GB"
+    },
+    {
+        "HDD_S/N": "110205PCG420GLGMB9PC"
+    },
+    {
+        "Ram": "16GB"
+    },
+    {
+        "Video": "MicrosoftBasicDisplayAdapter"
+    },
+    {
+        "Optical Drive": "DVD/RW"
+    },
+    {
+        "USB": "14"
+    },
+    {
+        "OS": "Windows 10 Pro"
+    },
+    {
+        "Windows License": "03307513074521"
+    },
+    {
+        "Productivity": "HDMI, DisplayPort"
+    },
+    {
+        "Office License": "N/A"
+    },
+    {
+        "OTHER": "N/A"
+    },
+    {
+        "Tech": "Malachi"
+    },
+    {
+        "Type": "Desktop"
+    }
+]

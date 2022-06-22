@@ -1,0 +1,52 @@
+Serial
+SerialNumber  
+
+ps  
+
+
+
+Manufacturer
+Manufacturer  
+
+powerspec     
+
+
+
+Model
+Model  
+
+G212   
+
+
+
+Processor
+Name        
+
+Intel(R) Core(TM) i7-2600K CPU @ 3.40GHz  
+
+
+
+HDD_Size
+Total free bytes        : 479,036,493,824 (446.1 GB)
+Total bytes   : 499,517,820,928 (465.2 GB)
+Total quota free bytes  : 479,036,493,824 (446.1 GB)
+HDD_S/N
+SerialNumber          
+
+110205PCG420GLGMB9PC  
+
+  
+
+
+
+Ram
+Total Physical Memory:     16,366 MB
+Video
+Name         
+
+Microsoft Basic Display Adapter  
+
+
+
+
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""

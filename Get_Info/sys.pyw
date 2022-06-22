@@ -124,24 +124,26 @@ def regex_parse():
                                 i_cpu_reg = Intel_REG
                                 i_cpu_match = re.finditer(i_cpu_reg, str_match, re.MULTILINE)
                                 for cpu_i in i_cpu_match:
+                                    
                                     new_cpu = re.finditer(i_cpu_reg, str_match, re.MULTILINE)
                                 a_cpu_reg = AMD_REG
-                                a_cpu_match = re.finditer(a_cpu_reg, Unparsed_File, re.MULTILINE)
+                                a_cpu_match = re.finditer(a_cpu_reg, str_match, re.MULTILINE)
                                 for cpu_a in a_cpu_match:
                                     new_cpu = re.finditer(a_cpu_reg, str_match, re.MULTILINE)
                                 old_intel_reg = Intel_Old_Reg
-                                o_I_cpu_match = re.finditer(old_intel_reg, Unparsed_File, re.MULTILINE)
+                                o_I_cpu_match = re.finditer(old_intel_reg, str_match, re.MULTILINE)
                                 for cpu_o_I in o_I_cpu_match:
-                                    new_cpu = re.finditer(old_intel_reg, Unparsed_File, re.MULTILINE)
+                                    new_cpu = re.finditer(old_intel_reg, str_match, re.MULTILINE)
 
                             else:
                                 null = 'NULL'
     
                                
                             for cpu in new_cpu:
+                                print(cpu)
                                 parsed_cpu = cpu[1]
                                 NO_WHITE_SPACE = parsed_cpu.replace(" ", "")
-                                
+                                print(parsed_cpu)
                                 JSON_DICT = {output_name[x]: NO_WHITE_SPACE}
                                 COMPUTER.append(JSON_DICT)
                         else:
@@ -253,7 +255,7 @@ def input(defType, defOpt, defUsb, defOs, defWinlic, defProd, defOfficelic, defO
             print(COMPUTER)
             Proc = Label(win, text="Processor: " + COMPUTER[3]["Processor"], font=("Courier 14 bold"))
             Proc.pack()
-            
+            print(COMPUTER[4])
             HDDSize = Label(win, text="HDD Size: " + COMPUTER[4]["HDD_Size"], font=("Courier 14 bold"))
             HDDSize.pack()
             
